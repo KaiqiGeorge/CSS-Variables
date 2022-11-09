@@ -11,7 +11,7 @@ body {
 img {
   padding: var(--space);
   background: var(--base);
-  filter: blur(var(--blur));
+  filter:blur(var(--blur));
   margin-top: 40px;
 }
 h1 > span {
