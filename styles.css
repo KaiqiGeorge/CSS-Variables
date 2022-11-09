@@ -1,0 +1,23 @@
+:root {
+  --base: #ffc600;
+  --space: 10px;
+  --blur: 10px;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 50px;
+}
+img {
+  padding: var(--space);
+  background: var(--base);
+  filter: blur(var(--blur));
+  margin-top: 40px;
+}
+h1 > span {
+  color: var(--base);
+}
+label {
+margin-left: 20px;
+margin-top: 20px;;
+}
