@@ -1,5 +1,5 @@
 :root {
-  --base: #781a15;
+  --base: #af860c;
   --space: 10px;
   --blur: 10px;
 }
@@ -13,6 +13,7 @@ img {
   background: var(--base);
   filter: blur(var(--blur));
   margin-top: 40px;
+  width: 900px;
 }
 h1 > span {
   color: var(--base);
