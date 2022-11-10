@@ -1,5 +1,5 @@
 :root {
-  --base: #4f0602;
+  --base: #781a15;
   --space: 10px;
   --blur: 10px;
 }
@@ -26,16 +26,21 @@ label {
   h1 {
     font-size: 20px;
     align-items: flex-start;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
   }
   label {
     font-size: 15px;
     display: flex;
+    justify-content: space-around;
     flex:1;
+    margin-top: 10px;
   }
   img{
     width: 450px;
     height: 100%;
    
+  }
+  input{
+    margin-bottom: -50px;
   }
 }
